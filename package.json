@@ -1,0 +1,32 @@
+{
+  "name": "bootstrap_custom",
+  "version": "1.0.0",
+  "description": "Custom variables over Bootstrap",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cecortes/Bootstrap_custom.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "Custom"
+  ],
+  "author": "César López",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cecortes/Bootstrap_custom/issues"
+  },
+  "homepage": "https://github.com/cecortes/Bootstrap_custom#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.3.0-alpha1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
